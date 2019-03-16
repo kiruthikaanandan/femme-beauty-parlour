@@ -1,0 +1,302 @@
+<html>
+<head>
+<title></title>
+<style>
+.mark
+{
+position:absolute;
+top:15%;
+right:70%;
+size:50%;
+}
+.marks
+{
+position:absolute;
+top:22%;
+right:60%;
+size:50%;
+}
+.marki
+{
+position:absolute;
+bottom:50%;
+left:10%;
+size:10%;
+}
+.links{
+border-radius:10px; 
+}
+.links:hover
+{
+background-color:orange;
+}
+.m1
+{
+position:absolute;
+left:60%;
+top:68%;
+}
+.m2
+{
+position:absolute;
+left:60%;
+top:77%;
+}
+.m3
+{
+position:absolute;
+left:60%;
+top:86%;
+}
+
+GEEKFORGEEKS {										 
+	margin-left: 70px; 
+	font-weight: bold ; 
+	float: left; 
+	clear: left; 
+	width: 100px; 
+	text-align: left; 
+	margin-right: 10px; 
+	font-family:sans-serif,bold, Arial, Helvetica; 
+	font-size:14px; 
+} 
+
+div { 
+	box-sizing: border-box; 
+	width: 100%; 
+	border: 100px solid black; 
+	float: left; 
+	align-content: center; 
+	align-items: center; 
+} 
+
+form {										 
+	margin: 0 auto; 
+	width: 600px;
+	}
+</style> 
+<script> 
+function GEEKFORGEEKS()								 
+{ 
+	var name = document.forms["RegForm"]["Name"];			 
+	var email = document.forms["RegForm"]["EMail"]; 
+	var phone = document.forms["RegForm"]["Telephone"]; 
+	var what = document.forms["RegForm"]["Subject"]; 
+	var password = document.forms["RegForm"]["password"]; 
+	var address = document.forms["RegForm"]["Address"]; 
+
+	if (name.value == "")								 
+	{ 
+		window.alert("Please enter your name."); 
+		name.focus(); 
+		return false; 
+	} 
+
+	if (address.value == "")							 
+	{ 
+		window.alert("Please enter your address."); 
+		name.focus(); 
+		return false; 
+	} 
+	
+	if (email.value == "")								 
+	{ 
+		window.alert("Please enter a valid e-mail address."); 
+		email.focus(); 
+		return false; 
+	} 
+
+	if (email.value.indexOf("@", 0) < 0)				 
+	{ 
+		window.alert("Please enter a valid e-mail address."); 
+		email.focus(); 
+		return false; 
+	} 
+
+	if (email.value.indexOf(".", 0) < 0)				 
+	{ 
+		window.alert("Please enter a valid e-mail address."); 
+		email.focus(); 
+		return false; 
+	} 
+
+	if (phone.value == "")						 
+	{ 
+		window.alert("Please enter your telephone number."); 
+		phone.focus(); 
+		return false; 
+	} 
+
+	if (password.value == "")					 
+	{ 
+		window.alert("Please enter your password"); 
+		password.focus(); 
+		return false; 
+	} 
+
+	if (what.selectedIndex < 1)				 
+	{ 
+		alert("Please enter style  what you want.. ."); 
+		what.focus(); 
+		return false; 
+	} 
+alert("Sign in successfull");
+	return true; 
+}</script> 
+<script language = "JavaScript">
+        function validate() {
+            var username = document.getElementById("username").value;
+            var password = document.getElementById("password").value;
+            if (username == null || username == "") {
+                alert("Please enter the username.");
+                return false;
+            }
+            if (password == null || password == "") {
+                alert("Please enter the password.");
+                return false;
+            }
+            alert('Login successful');
+            
+        } 
+</script>
+<style> 
+GEEKFORGEEKS {										 
+	margin-left: 70px; 
+	font-weight: bold ; 
+	float: left; 
+	clear: left; 
+	width: 100px; 
+	text-align: left; 
+	margin-right: 10px; 
+	font-family:sans-serif,bold, Arial, Helvetica; 
+	font-size:14px; 
+} 
+
+div { 
+	box-sizing: border-box; 
+	width: 50%; 
+	border: 100px solid black; 
+	float: left; 
+	align-content: center; 
+	align-items: center; 
+} 
+
+form {										 
+	margin: 0 auto; 
+	width: 600px; 
+}
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+</style></head> 
+
+
+
+
+<body style="background-color:black">
+<img src="f11.jpeg" alt="image not found" height="50%" width="100%">
+
+<table border="0" width="100%"height="10%">
+<tr>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="index.html"><font color="black">HOME</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="aboutus1.html"><font color="black">ABOUT US</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="contactus1.html"><font color="black">CONTACT US</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="gallery1.html"><font color="black">GALLERY</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="feedback1.html"><font color="black">FEEDBACK</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="treatments.html"><font color="black">TREATMENTS</td>
+<td width="12.5%" align="center" bgcolor="brown" class="links"><a href="specialoffers.html"><font color="black">SPECIAL OFFERS</td>
+</tr>
+</table>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<h1 style="color:cyan; font-family:Times New Roman; size=200%; position=absolute; text-align=center"><b>CONTACT US</b></h1></font>		 
+<form name="RegForm"  action="in.html"onsubmit="return GEEKFORGEEKS()" method="post">
+<pre>
+<h3 style="color:cyan; font-family:Monotype Corsiva; size=200%; position=absolute; right=50%">
+If you’re looking for a place to get pampered in luxury, the Naturals Lounge salon, studio and spa will take care of you in a manner so
+indulgent, you will never want to leave!
+The inviting ambience clubbed with our beauty and hair care services at Naturals Lounge helps you detox and relax.
+Our master masseurs use aromatic oils with exotic ingredients that detoxify your body and leave your skin with a healthy glow.
+Our body massages help relieve body soreness and pain, and relax your muscles.
+Moreover, our hair spa treatments are formulated from rare, natural ingredients that treat specific problems and keep your hair healthy
+with a natural shine.The Naturals Lounge also offers exclusive bridal packages featuring top bridal makeup artists and hair stylists to
+ensure all our brides look absolutely stunning on their wedding day!
+A pioneer in the Indian beauty salon industry, Naturals was one of the first to introduce the concept of unisex salons in the country.
+By offering a convenient way for families and couples to cater to their grooming needs all under one roof, Naturals Unisex Salons led
+the way for the trend of unisex salons in India.Strategically located across the country, each Naturals Unisex Salon is beautifully designed 
+with state-of-the-art equipment and a welcoming ambience. Our unisex salons offer a wide range of skin and hair care services for both,
+men and women.At Naturals Unisex Salons, we use products that have been carefully chosen for their advanced properties and quality.
+Now make salon time a family affair at Naturals Unisex Salons!</h3></pre><br>
+<form name="regform" > 
+<table border="2" bgcolor="cyan">
+	<pre>
+<h1 style="color:cyan; font-family:Times New Roman; size=200%; position=absolute; text-align=center"><b>CREATE A NEW ACCOUNT</b></h1></font>	
+	<tr>
+<td><p>Name              :       <input type="text" size=50 name="Name"> </p></td> </tr>
+<tr><td><p>Address       :       <input type="text" size=50 name="Address"> </p></td></tr> 
+<tr><td><p>E-mail Address:       <input type="text" size=50 name="EMail"> </p></td></tr> 
+<tr><td><p>Password      :       <input type="text" size=50 name="Password"> </p></td></tr>
+<tr><td><p>Telephone     :       <input type="text" size=50 name="Telephone"> </p></td></tr> 
+		
+	<tr><td><p>SELECT YOUR BEAUTYCONTEST/HAIRSTYLES:<select type="text" value="" name="courses"> 
+            <option>CURLY</option> 
+			<option>V-CUT</option> 
+			<option>STEP-CUT</option> 
+			<option>STRAIGHTNER</option> 
+			<option>U-CUT</option>
+			<option>FEATHER-CUT</option>
+			<option>LAYER</option>
+			<option>OTHERS</option>
+			<option>BLEACH</option>
+			<option>FACIAL</option>
+			<option>EYEBROW DRIM</option>
+			<option>WAX</option>
+		</select></p></td></tr> 
+	<tr><td><p>Comments   :     <textarea cols="55" name="Comment"> </textarea></p></td></tr> 
+	<tr><td><p>             <input type="submit" value="Login" id="submit"  onclick=" return GEEKFORGEEKS();" />	
+		             <input type="reset" value="Reset" name="Reset"> </td></tr>
+		</pre>
+	</p>		 
+</form> 
+</table>
+<br><br>
+<h1 style="color:cyan; font-family:Times New Roman; size=200%; position=absolute; text-align=center"><b>LOG-IN:</b></h1></font>	
+<table border="2" bgcolor="cyan">
+<tr>
+<pre>
+<form id="form1" runat="server">
+    <div class="container">
+    <div class="main">
+            <h2>Javascript Login Form Validation</h2>
+            <form id="form_id" method="post" name="myform"> <!--action="new1.php" -->
+           <pre> <label><tr><td>       <img src="l11.jpeg" align="center" width="100%" height="50%"/></td></tr></pre>
+            <tr><td>User Name   :</label>
+            <input type="text" name="username" id="username" />
+            </td></tr>
+            <label>
+            <tr><td> Password :</label>
+            <input type="password" name="password" id="password" />
+            <input type="submit" value="Login" id="submit" onclick="validate();" /></td></tr>
+            </form>
+        </div>
+    </div>
+    </form>
+	</pre>
+	</table>
+<br>
+<br>
+<h2 style="color:cyan; font-family:Times New Roman; size=100%; position=absolute; text-align=left; left=100%"><b>CONTACT DETAILS:<br>044-23417689<br>7358370258<br>8056181589</b></h2></font>
+
+<pre>      <a  href="https://en-gb.facebook.com/login/"><i class="fa fa-facebook-official" style="font-size:24px;color:blue"></i></a>  <a href="https://www.mozilla.org/en-US/firefox/accounts/"><i class="fa fa-firefox" style="font-size:24px;color:red"></i>  </a><a href="https://www.google.com/"><i class="fa fa-google-plus-square" style="font-size:24px;color:skyblue"></i></a>   <a href="https://www.pinterest.com/"><i class="fa fa-pinterest-square" style="font-size:24px;color:orange"></i></a>  <a href="https://www.mycommerce.com/"><i class="fa fa-share-alt-square" style="font-size:24px;color:skyblue"></i> </a><a href="https://www.skype.com/en/"> <i class="fa fa-skype" style="font-size:24px;color:skyblue"></i></a>
+                 <p>                                          <a href="deepika1999sekar@gmail.com"/>deepika1999sekar@gamil.com</a></p>
+		<p>                                                                       <a href="femmebeauty.in"/>femmebeauty.in</a>                                                                 
+		<p>                                                  <p>Copyright © 2019 femmebeauty Inc. </p>                                                                                                                                     
+</pre>
+ 
+</body>
+</html>
+
+
